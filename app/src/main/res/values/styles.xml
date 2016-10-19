@@ -1,0 +1,27 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="NumBut" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:buttonStyle">?attr/borderlessButtonStyle</item>
+        <item name="android:textColor">#ADD8E6</item>
+        <item name="android:textSize">16pt</item>
+        <item name="android:background">#4169E1</item>
+        <item name="android:onClick">clickNum</item>
+    </style>
+    <style name="OpBut" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:buttonStyle">?attr/borderlessButtonStyle</item>
+        <item name="android:textColor">#ADD8E6</item>
+        <item name="android:textSize">16pt</item>
+        <item name="android:background">#303F9F</item>
+        <item name="android:onClick">clickOp</item>
+    </style>
+
+</resources>
